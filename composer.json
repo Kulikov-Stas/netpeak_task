@@ -1,0 +1,10 @@
+{
+    "name": "netpeak_task",
+    "description": "CLI site parser application",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "App\\": "App"
+      }
+    }
+}
