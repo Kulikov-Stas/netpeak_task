@@ -16,8 +16,8 @@ class Module
     function __construct(array $options)
     {
         switch (key($options)) {
-            case "parse":
-                $parser = new Helpers\Parser($this->checkUrl($options['parse']));
+            case "parser":
+                $parser = new Helpers\Parser($this->checkUrl($options['parser']));
                 echo $parser->parse();
                 break;
             case "report":
@@ -27,6 +27,7 @@ class Module
 
             case "help":
             default:
+            var_dump(key($options));
                 echo $this->help();
         }
 
