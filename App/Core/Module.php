@@ -27,7 +27,6 @@ class Module
 
             case "help":
             default:
-            var_dump(key($options));
                 echo $this->help();
         }
 
