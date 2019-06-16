@@ -18,6 +18,6 @@
 выводит список команд с пояснениями
 
 ###### **Пример**:
-```php parser.php --parse=https://netpeak.net/ru/blog/```
+```php parser.php --parser=https://netpeak.net/ru/blog/```
 
 ```php parser.php --report=netpeak.net```
